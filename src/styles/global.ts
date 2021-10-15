@@ -13,4 +13,9 @@ export default createGlobalStyle`
     border: 0;
     cursor: pointer;
   }
+
+  html{
+    font-size: 62.5%;
+    font-family: 'Exo 2', sans-serif; /* 10px */
+  }
 `
