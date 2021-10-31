@@ -1,31 +1,38 @@
-import { Container, Wrapper, AnimationLink } from './style'
+import { Container } from './style'
 
 import Link from 'next/link'
+
+import { bubble as Menu } from 'react-burger-menu'
 
 export const Header = () => {
   return (
     <Container>
-      <Link href="/home">
-        <div className="wraperLogo">
-          <img src="./assets/logo.png" alt="Save An Animal" />
-          <h1>Save Animal</h1>
-        </div>
-      </Link>
+      <div className="teste">
+        <Link href="/home">
+          <div className="testinh">
+            <img src="./assets/logo.png" alt="Save an Animal" />
+            <p>Save an Animal</p>
+          </div>
+        </Link>
+      </div>
 
-      <Wrapper>
-        <AnimationLink>
-          <Link href="/wanted">Procura-se</Link>
-        </AnimationLink>
-        <AnimationLink>
-          <Link href="/find">Quero Encontrar</Link>
-        </AnimationLink>
-        <AnimationLink>
-          <Link href="/homesweet">Encontre um lar</Link>
-        </AnimationLink>
-        <AnimationLink>
-          <Link href="/donations">Doações</Link>
-        </AnimationLink>
-      </Wrapper>
+      <Menu>
+        <a className="linkhover" href="/home">
+          Home
+        </a>
+        <a className="linkhover" href="/find">
+          Encontre seu Pet
+        </a>
+        <a className="linkhover" href="/wanted">
+          Ajude a encontrar
+        </a>
+        <a className="linkhover" href="/homesweet">
+          Lar doce lar
+        </a>
+        <a className="linkhover" href="/donations">
+          Doações
+        </a>
+      </Menu>
     </Container>
   )
 }
