@@ -1,0 +1,39 @@
+[
+  {
+    "id":1,
+    "cidade":"São Paulo",
+    "estado":"São Paulo",
+    "bairro":"Mooca",
+    "tutor_name":"Juca Baleiro",
+    "dog_name":"Juquinha",
+    "photo_url":"./assets/dog.jpg"
+  },
+  {
+    "id":2,
+    "cidade":"Rio de Janeiro",
+    "estado":"Rio de Janeiro",
+    "bairro":"Praia do Flamengo",
+    "tutor_name":"Baiano",
+    "dog_name":"Biqueira",
+    "photo_url":"./assets/dog.jpg"
+  },
+  {
+    "id":2,
+    "cidade":"São Paulo",
+    "estado":"Ribeirão preto",
+    "bairro":"Estrada Velha",
+    "tutor_name":"Mané",
+    "dog_name":"Bilu",
+    "photo_url":"./assets/dog.jpg"
+  },
+  {
+    "id":2,
+    "cidade":"Minas Gerais",
+    "estado":"Belo Horizonte",
+    "bairro":"Queijo Mineiro",
+    "tutor_name":"Arnold",
+    "dog_name":"Pimpolho",
+    "photo_url":"./assets/dog.jpg"
+  }
+
+]

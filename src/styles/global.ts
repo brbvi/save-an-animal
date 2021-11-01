@@ -18,7 +18,7 @@ export default createGlobalStyle`
     background: 0;
     border: 0;
     cursor: pointer;
-    
+    font-family: 'Exo 2', sans-serif;
   }
 
   html{
