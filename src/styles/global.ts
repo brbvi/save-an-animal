@@ -11,12 +11,14 @@ export default createGlobalStyle`
   :root{
     --primary: white;
     --background:#181818;
-  }
+    --text: #ebebeb;
+  } 
 
   button, input {
     background: 0;
     border: 0;
     cursor: pointer;
+    
   }
 
   html{
@@ -26,6 +28,7 @@ export default createGlobalStyle`
 
   body{
     background: var(--background);
+    
   }
 
   /* Position and sizing of burger button */
@@ -43,12 +46,12 @@ export default createGlobalStyle`
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: rgba(55, 58, 71, 1);
+  background: rgba(189, 189, 189, 1);
 }
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-  background: rgba(55, 58, 71, 0.6);
+  background: rgba(189, 189, 189, 0.6);
 }
 
 /* Position and sizing of clickable cross button */

@@ -5,7 +5,7 @@ export const Container = styled.div`
   top: 0;
   left: 0;
 
-  background-color: white;
+  background-color: var(--background);
   width: 100%;
   height: 100px;
 
@@ -26,7 +26,8 @@ export const Container = styled.div`
       }
 
       p {
-        font-size: 1.8rem;
+        font-size: 2rem;
+        color: var(--text);
       }
     }
 
@@ -38,16 +39,31 @@ export const Container = styled.div`
   .linkhover {
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
-    margin-bottom: 2rem;
-    font-size: 2rem;
+    margin: 3rem 0;
+    font-size: 2.2rem;
     font-weight: 300;
+    width: 100%;
 
-    transition: color 0.4s, border 0.4s, padding-left 0.4s !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: 0.5s !important;
 
     &:hover {
       color: rgba(255, 255, 255, 0.5);
       border-left: 3px solid white;
-      padding-left: 5px;
+      padding-left: 1px;
+    }
+
+    .iconMenu {
+      margin: 0 1.4rem;
     }
   }
+`
+export const Line = styled.div`
+  width: 2px;
+  height: 30px;
+  margin: 0 2rem;
+  background-color: var(--text);
 `
